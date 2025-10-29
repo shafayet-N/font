@@ -16,6 +16,7 @@ import SuccessStories from "./pages/SuccessStories";
 import Contact from "./pages/Contact";
 import RegisterPet from "./pages/RegisterPet";
 import Registersuccess from "./pages/Registersuccess";
+import GetPetMicrochipped from "./pages/GetPetMicrochipped";  
 import Registersuccessvet from "./pages/Registersuccessvet";
 import VetRegister from "./pages/VetRegister";
 import POLogin from "./pages/POLogin";
@@ -50,6 +51,7 @@ const App = () => {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/registerpet" element={<RegisterPet />} />
                 <Route path="/registersuccess" element={<Registersuccess />} />
+                <Route path="/getpetmicrochipped" element={<GetPetMicrochipped />} />
                 <Route path="/registersuccessvet" element={<Registersuccessvet />} />
                 <Route path="/vetregister" element={<VetRegister />} />
                 <Route path="/pologin" element={<POLogin />} />
